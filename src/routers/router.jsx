@@ -13,8 +13,8 @@ import ManageBooks from "../pages/dashboard/managebook/ManageBooks.jsx";
 import AddNewBook from "../pages/dashboard/addbook/addNewBook.jsx";
 import UpdateBook from "../pages/dashboard/editbook/UpdateBook.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
-import DashBoardLayout from '../pages/dashboard/DashBoardLayout.jsx';
 import Dashboard from "../pages/dashboard/Dashboard.jsx";
+import DashBoardLayout from "../pages/dashboard/DashBoardLayout.jsx";
 
 
 
