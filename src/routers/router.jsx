@@ -14,7 +14,7 @@ import UpdateBook from "../pages/dashboard/editbook/UpdateBook.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
 import Dashboard from "../pages/dashboard/Dashboard.jsx";
 import DashBoardLayout from "../pages/dashboard/DashBoardLayout.jsx";
-import AddNewBook from "../pages/dashboard/addbook/AddNewBook.jsx";
+import addNewBook from "../pages/dashboard/addbook/addNewBook.jsx";
 
 
 
@@ -71,7 +71,7 @@ const router =  createBrowserRouter([
             },
             {
                 path: "add-new-book",
-                element: <AdminRoute><AddNewBook /></AdminRoute>
+                element: <AdminRoute><addNewBook /></AdminRoute>
             },
             {
                 path: "edit-book/:id",
