@@ -5,7 +5,7 @@ import { HiOutlineViewGridAdd } from "react-icons/hi";
 import { MdOutlineManageHistory } from "react-icons/md";
 import { FiBookOpen } from "react-icons/fi";
 
-const DashboardLayout = () => {
+const DashBoardLayout = () => {
     const handleLogout = () => {
 
     }
@@ -127,5 +127,5 @@ const DashboardLayout = () => {
     )
 }
         
-export default DashboardLayout;
+export default DashBoardLayout;
 
