@@ -1,5 +1,5 @@
 const getbaseUrl = () => {
-    return "http://localhost:5000"
+    return "https://bookify-store-backend.vercel.app"
 }
 
 export default getbaseUrl;
