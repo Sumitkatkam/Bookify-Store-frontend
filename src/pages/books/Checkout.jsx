@@ -3,8 +3,8 @@ import { useForm } from 'react-hook-form';
 import { useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { useCreateOrderMutation } from '../../redux/features/orderapi/OrdersApi';
 import Swal from 'sweetalert2';
+import { useCreateOrderMutation } from '../../redux/features/orderapi/orderApi';
 
 const Checkout = () => {
   const cartItems = useSelector(state => state.cart.cartItems);

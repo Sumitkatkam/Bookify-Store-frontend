@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import getbaseUrl from '../../../utils/baseUrl'; 
 
-const OrdersApi = createApi({
-    reducerPath: "ordersApi",
+const orderApi = createApi({
+    reducerPath: "orderApi",
     baseQuery: fetchBaseQuery({
         baseUrl: `${getbaseUrl()}/api/orders`,
         credentials: 'include'
@@ -26,6 +26,5 @@ const OrdersApi = createApi({
     })
 })
 
-
-export const {useCreateOrderMutation, useGetOrderByEmailQuery} = OrdersApi;
-export default OrdersApi;
+export const {useCreateOrderMutation, useGetOrderByEmailQuery} = orderApi;
+export default orderApi;
